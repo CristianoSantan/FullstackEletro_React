@@ -37,10 +37,10 @@ const Contato = () => {
                 <form id="cadastrarMSG" class="container my-3 p-3 bg-light rounded shadow-lg" action="" method="post">
                     <div class="form-group">
                         <label for="nome">Nome:</label>
-                        <input type="text" class="form-control" name="nome"/>
+                        <input type="text" class="form-control mb-3" name="nome"/>
                             <label for="msg">Mensagem:</label>
-                            <textarea name="msg" class="form-control" id="msg" cols="50" rows="2"></textarea>
-                            <input type="submit" name="submit" form="cadastrarMSG" class="btn btn-primary" value="Enviar" class="submit"/>
+                            <textarea name="msg" class="form-control mb-3" id="msg" cols="50" rows="2"></textarea>
+                            <input type="submit" name="submit" form="cadastrarMSG" class="btn btn-primary mt-2" value="Enviar"/>
                     </div>
                 </form>
 
