@@ -1,26 +1,28 @@
 // Dependencias e biblioteca.
 import React from 'react';
-
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 // Components.
 import Nav from '../Nav';
 import Footer from '../Footer';
-
+import Home from '../Home';
+import Produtos from '../Produtos';
+import Lojas from '../Lojas';
+import Contato from '../Contato';
 // Style, imgs, etc.
 import './styles.css';
 
 const App = () => {
   return (
     <>
-      <Nav />
-      <main role="main">
-        <div class="jumbotron">
-            <div class="container">
-                <h1 class="display-3">Seja bem vindo(a)!</h1>
-                <p>Aqui em nossa loja, programadores tem desconto nos produtos para sua casa!</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Saiba mais »</a></p>
-            </div>
-        </div>
-      </main>
+      <Router>
+        <Nav />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/produtos" component={Produtos} />
+          <Route path="/loja" component={Lojas} />
+          <Route path="/contato" component={Contato} />
+        </Switch>
+      </Router>
       <Footer />
     </>
   );

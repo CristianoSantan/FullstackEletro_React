@@ -1,28 +1,29 @@
 import React from 'react';
-import logo from '../img/Full Stack logo.PNG';
+import {Link} from 'react-router-dom';
+import logo from '../documents/img/Full Stack logo.PNG';
 import './styles.css';
 
 const Nav = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-center">
             <div class="container">
-                <a class="navbar-brand mr-5" href="index.php"><img src={logo}
-                    alt="logo loja" /></a>
+                <Link class="navbar-brand mr-5" to="/"><img src={logo}
+                    alt="logo loja" /></Link>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
                     aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarsExample04">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav">
                         <li class="nav-item active mr-5">
-                            <a class="nav-link" href="produtos.php">Produtos</a>
+                            <Link class="nav-link" to="/produtos">Produtos</Link>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link mr-5" href="loja.php">Nossas lojas</a>
+                            <Link class="nav-link mr-5" to="/loja">Nossas lojas</Link>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link mr-5" href="contato.php">Contato</a>
+                            <Link class="nav-link mr-5" to="/contato">Contato</Link>
                         </li>
                     </ul>
                 </div>
