@@ -14,7 +14,6 @@ const Lojas = () => {
             </header>
             {/* <!-------------------------------- Endereço das Lojas --------------------------------> */}
             <section class="container">
-
                 <div class="d-flex align-items-end flex-column">
                     <div class="container p-2">
                         <div class="row my-5 flex-column flex-sm-row ">
@@ -39,10 +38,6 @@ const Lojas = () => {
                                 <p>(47) 5555-5555</p>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="container mt-auto p-2">
-
                     </div>
                 </div>
             </section>

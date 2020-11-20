@@ -3,6 +3,8 @@ import React from 'react';
 
 // Style, imgs, etc.
 // import './styles.css';
+import email from '../documents/img/email.png';
+import whatsapp from '../documents/img/whatsapp.png';
 
 const Contato = () => {
     return (
@@ -18,13 +20,13 @@ const Contato = () => {
                         <div class="row">
                             <div class="col-6" id="contato">
                                 <div class="text-center">
-                                    <img class="my-2" src="./img/email.png" height="25px" />
+                                    <img class="my-2" src={email} />
                                     <p>contato@fullstackeletro.com</p>
                                 </div>
                             </div>
                             <div class="col-6" id="contato">
                                 <div class="text-center">
-                                    <img src="./img/whatsapp.png" height="40px" />
+                                    <img src={whatsapp} />
                                     <p class="">(11) 9999-9999</p>
                                 </div>
                             </div>
@@ -73,7 +75,7 @@ const Contato = () => {
                 </div>
             </section>
         </main>    
-  );
+    );
 }
 
 export default Contato;

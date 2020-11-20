@@ -7,30 +7,31 @@ import React from 'react';
 const Produtos = () => {
     return (
 
-        <main class="container">
+        <main>
             <header class="container-fluid pl-4 bg-secondary text-white">
                 <div class="container">
                     <h2>Produtos</h2>
                 </div>
             </header>
-            <div class="dropdown-show d-flex justify-content-center my-4">
-                <a class="btn dropdown-toggle d-flex align-items-center" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <p class="my-auto">Categorias</p>
-                </a>
+            <div class="container">
+                <div class="dropdown-show d-flex justify-content-center my-4">
+                    <a class="btn dropdown-toggle d-flex align-items-center" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <p class="my-auto">Categorias</p>
+                    </a>
 
-                <div class="dropdown-menu shadow" aria-labelledby="dropdownMenuLink">
-                    <button class="dropdown-item" type="button" onclick="exibirTodos()">Todos(12)</button>
-                    <button class="dropdown-item" type="button" onclick="exibirCategoria('geladeira')">Geladeiras(3)</button>
-                    <button class="dropdown-item" type="button" onclick="exibirCategoria('fogao')">Fogões(2)</button>
-                    <button class="dropdown-item" type="button" onclick="exibirCategoria('microondas')">Microondas(3)</button>
-                    <button class="dropdown-item" type="button" onclick="exibirCategoria('lavadora')">Lavadora de Roupas(2)</button>
-                    <button class="dropdown-item" type="button" onclick="exibirCategoria('lavaLoucas')">Lava Louças(2)</button>
+                    <div class="dropdown-menu shadow" aria-labelledby="dropdownMenuLink">
+                        <button class="dropdown-item" type="button" onclick="exibirTodos()">Todos(12)</button>
+                        <button class="dropdown-item" type="button" onclick="exibirCategoria('geladeira')">Geladeiras(3)</button>
+                        <button class="dropdown-item" type="button" onclick="exibirCategoria('fogao')">Fogões(2)</button>
+                        <button class="dropdown-item" type="button" onclick="exibirCategoria('microondas')">Microondas(3)</button>
+                        <button class="dropdown-item" type="button" onclick="exibirCategoria('lavadora')">Lavadora de Roupas(2)</button>
+                        <button class="dropdown-item" type="button" onclick="exibirCategoria('lavaLoucas')">Lava Louças(2)</button>
+                    </div>
                 </div>
-            </div>
 
-            <section class="row d-flex justify-content-between py-4">
+                <section class="row d-flex justify-content-between py-4">
 
-                {/* <?php
+                    {/* <?php
                 $dados_json = file_get_contents("http://localhost/FullStackEletro/FullStackEletroRECODE/getContent.php?table=produtos");
 
                 $dados = json_decode($dados_json, true);
@@ -48,7 +49,8 @@ const Produtos = () => {
                 <?php
                 }
                 ?> */}
-            </section>
+                </section>
+            </div>
         </main>
     );
 }
