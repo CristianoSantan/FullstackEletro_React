@@ -15,7 +15,7 @@ export default class Produtos extends React.Component {
     }
 
     exibirProdutos() {
-        fetch("http://localhost/RECODE_Pro/GUERREIRO%20JEDI/REACT/FullStackEletro/fseletro/src/API/")
+        fetch("http://localhost/RECODE_Pro/GUERREIRO%20JEDI/REACT/FullStackEletro/fseletro/src/API/ClassProdutos.php")
             .then((response) => response.json())
             .then((responseJson) => {
                 this.setState({

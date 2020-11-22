@@ -30,3 +30,6 @@ class ClassProduto extends ClassConexao
         echo json_encode($J);
     }
 }
+
+$Produtos = new ClassProduto ();
+$Produtos->exibeProdutos ();
