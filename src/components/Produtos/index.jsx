@@ -4,7 +4,7 @@ import React from 'react';
 // Style, imgs, etc.
 // import './styles.css';
 
-class Produtos extends React.Component {
+export default class Produtos extends React.Component {
 
     constructor() {
         super();
@@ -74,5 +74,3 @@ class CardProdutos extends React.Component {
         )
     }
 }
-
-export default Produtos;
