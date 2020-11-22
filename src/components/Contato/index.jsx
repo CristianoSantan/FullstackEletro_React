@@ -3,8 +3,8 @@ import React from 'react';
 
 // Style, imgs, etc.
 // import './styles.css';
-import email from '../documents/img/email.png';
-import whatsapp from '../documents/img/whatsapp.png';
+// import email from '../documents/img/email.png';
+// import whatsapp from '../documents/img/whatsapp.png';
 
 export default class Contato extends React.Component {
 
@@ -40,13 +40,13 @@ export default class Contato extends React.Component {
                             <div class="row">
                                 <div class="col-6" id="contato">
                                     <div class="text-center">
-                                        <img class="my-2" src={email} />
+                                        <img class="my-2" src="./img/email.png" />
                                         <p>contato@fullstackeletro.com</p>
                                     </div>
                                 </div>
                                 <div class="col-6" id="contato">
                                     <div class="text-center">
-                                        <img src={whatsapp} />
+                                        <img src="./img/whatsapp.png" />
                                         <p class="">(11) 9999-9999</p>
                                     </div>
                                 </div>

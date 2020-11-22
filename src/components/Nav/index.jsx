@@ -1,13 +1,13 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../documents/img/Full Stack logo.PNG';
+// import logo from '../documents/img/Full Stack logo.PNG';
 import './styles.css';
 
 const Nav = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-center">
             <div class="container">
-                <Link class="navbar-brand mr-5" to="/"><img src={logo}
+                <Link class="navbar-brand mr-5" to="/"><img src="img/Full Stack logo.PNG"
                     alt="logo loja" /></Link>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
                     aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
