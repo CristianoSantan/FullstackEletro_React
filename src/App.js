@@ -10,9 +10,6 @@ import Produtos from './Views/Produtos';
 import Lojas from './Views/Lojas';
 import Contato from './Views/Contato';
 
-// Style, imgs, etc.
-import './styles.css';
-
 const App = () => {
   return (
     <>

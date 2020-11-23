@@ -17,7 +17,7 @@ export default class Contato extends React.Component {
     }
 
     exibirMsgm() {
-        fetch("http://localhost/RECODE_Pro/GUERREIRO%20JEDI/REACT/FullStackEletro/fseletro/src/API/ClassMensagens.php")
+        fetch("http://localhost/RECODE_Pro/GUERREIRO%20JEDI/REACT/FullStackEletro/fseletro/src/Backend/Api_Mensagens.php")
             .then((response) => response.json())
             .then((responseJson) => {
                 this.setState({
@@ -40,13 +40,13 @@ export default class Contato extends React.Component {
                             <div class="row">
                                 <div class="col-6" id="contato">
                                     <div class="text-center">
-                                        <img class="my-2" src="./img/email.png" />
+                                        <img class="my-2" src="./img/email.png" alt="email" />
                                         <p>contato@fullstackeletro.com</p>
                                     </div>
                                 </div>
                                 <div class="col-6" id="contato">
                                     <div class="text-center">
-                                        <img src="./img/whatsapp.png" />
+                                        <img src="./img/whatsapp.png" alt="zap" />
                                         <p class="">(11) 9999-9999</p>
                                     </div>
                                 </div>
@@ -63,8 +63,6 @@ export default class Contato extends React.Component {
                             <input type="submit" name="submit" form="cadastrarMSG" class="btn btn-primary mt-2" value="Enviar" />
                         </div>
                     </form>
-
-                    {/* <!------------------------------ Mensagens -----------------------------> */}
 
                     <Mensagem arrayContato={this.state.db} />
 

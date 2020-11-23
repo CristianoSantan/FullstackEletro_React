@@ -1,6 +1,6 @@
 <?php
 
-include("ClassConexao.php");
+include("ConnectDB.php");
 
 class ClassProduto extends ClassConexao
 {
