@@ -4,7 +4,7 @@ include("ClassConexao.php");
 
 class ClassMensagens extends ClassConexao
 {
-    #Exibição dos mensagens em json
+    #Exibição das mensagens em json
     public function exibeMsg()
     {
         $BFetch = $this->conectaDB()->prepare("select * from comentarios");

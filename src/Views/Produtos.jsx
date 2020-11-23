@@ -66,11 +66,11 @@ class CardProdutos extends React.Component {
                         <div class="boxProduto col-lg-3 col-md-4 col-sm-6 col-xs-9 text-center" id="{row.categoria}">
                             <img height="120" src={row.imagem} onclick="destaque(this)" />
                             <p class="border-bottom mb-0">{row.descricao}</p>
-                            <p class="mb-0"><s>R${row.preco}</s></p>
+                            <p class="mb-0"><s>R$ {row.preco}</s></p>
                             <p class="mb-0">R$ {row.precofinal}</p>
                         </div>
                 )}
             </div>
-        )
+        );
     }
 }

@@ -1,13 +1,15 @@
 // Dependencias e biblioteca.
 import React from 'react';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
-// Components.
-import Nav from '../Nav';
-import Footer from '../Footer';
-import Home from '../Home';
-import Produtos from '../Produtos';
-import Lojas from '../Lojas';
-import Contato from '../Contato';
+
+// Components | Views
+import Nav from './components/Nav/NavBar';
+import Footer from './components/Footer/Footer';
+import Home from './Views/Home';
+import Produtos from './Views/Produtos';
+import Lojas from './Views/Lojas';
+import Contato from './Views/Contato';
+
 // Style, imgs, etc.
 import './styles.css';
 
