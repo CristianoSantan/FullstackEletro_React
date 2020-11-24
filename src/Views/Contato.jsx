@@ -40,13 +40,13 @@ export default class Contato extends React.Component {
                             <div class="row">
                                 <div class="col-6" id="contato">
                                     <div class="text-center">
-                                        <img class="my-2" src="./img/email.png" alt="email" />
+                                        <img class="my-2" height="40" src="./img/email.png" alt="email" />
                                         <p>contato@fullstackeletro.com</p>
                                     </div>
                                 </div>
                                 <div class="col-6" id="contato">
                                     <div class="text-center">
-                                        <img src="./img/whatsapp.png" alt="zap" />
+                                        <img height="55" src="./img/whatsapp.png" alt="zap" />
                                         <p class="">(11) 9999-9999</p>
                                     </div>
                                 </div>
