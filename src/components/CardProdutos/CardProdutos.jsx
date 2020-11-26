@@ -11,7 +11,7 @@ export default class CardProdutos extends React.Component {
     }
 
     //  -----------------------------------   Destacar imagem   
-    destaque() {
+    destaque = () => {
         let state = this.state.height;
         if (state === 160) {
             state = 120;
@@ -26,7 +26,7 @@ export default class CardProdutos extends React.Component {
 
     render() {
         return (
-            <div className="row d-flex justify-content-between py-4">
+            <div className="row d-flex justify-content-around py-4">
                 {this.props.arrayProdutos.map(
                     row =>
                         <div className="boxProduto col-lg-3 col-md-4 col-sm-6 col-xs-9 text-center" id={row.categoria}>

@@ -2,18 +2,16 @@
 import React from 'react';
 import CardProdutos from '../components/CardProdutos/CardProdutos.jsx';
 
-
 export default class Produtos extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = ({
             db: [],
-            style: 'style="display: none;"'
         });
         this.exibirProdutos();
-        // this.exibirCategoria()= this.exibirCategoria.bind(this);
-        // this.exibirTodos()= this.exibirTodos.bind(this);
+        this.exibirCategoria = this.exibirCategoria.bind(this);
+        this.exibirTodos = this.exibirTodos.bind(this);
     }
 
     // -------------------------------------   Api Produtos
@@ -66,12 +64,12 @@ export default class Produtos extends React.Component {
                         </a>
 
                         <div className="dropdown-menu shadow" aria-labelledby="dropdownMenuLink">
-                            <button className="dropdown-item" type="button" onClick={this.exibirTodos}>Todos(12)</button>
-                            <button className="dropdown-item" type="button" onClick={this.exibirCategoria.geladeira}>Geladeiras(3)</button>
-                            <button className="dropdown-item" type="button" onClick={this.exibirCategoria.fogao}>Fogões(2)</button>
-                            <button className="dropdown-item" type="button" onClick="exibirCategoria('microondas')">Microondas(3)</button>
-                            <button className="dropdown-item" type="button" onClick="exibirCategoria('lavadora')">Lavadora de Roupas(2)</button>
-                            <button className="dropdown-item" type="button" onClick="exibirCategoria('lavaLoucas')">Lava Louças(2)</button>
+                            <button className="dropdown-item" type="button" onClick={() => this.exibirTodos()}>Todos(12)</button>
+                            <button className="dropdown-item" type="button" onClick={() => this.exibirCategoria('geladeira')}>Geladeiras(3)</button>
+                            <button className="dropdown-item" type="button" onClick={() => this.exibirCategoria('fogao')}>Fogões(2)</button>
+                            <button className="dropdown-item" type="button" onClick={() => this.exibirCategoria('microondas')}>Microondas(3)</button>
+                            <button className="dropdown-item" type="button" onClick={() => this.exibirCategoria('lavadora')}>Lavadora de Roupas(2)</button>
+                            <button className="dropdown-item" type="button" onClick={() => this.exibirCategoria('lavaLoucas')}>Lava Louças(2)</button>
                         </div>
                     </div>
 
