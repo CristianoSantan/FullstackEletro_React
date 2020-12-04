@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default class CardProdutos extends React.Component {
-
     constructor(props) {
         super(props);
         this.state = ({
@@ -9,7 +8,6 @@ export default class CardProdutos extends React.Component {
         });
         this.destaque = this.destaque.bind(this);
     }
-
     //  -----------------------------------   Destacar imagem   
     destaque = () => {
         let state = this.state.height;
@@ -23,7 +21,6 @@ export default class CardProdutos extends React.Component {
             height: state
         });
     }
-
     render() {
         return (
             <div className="row d-flex justify-content-around py-4">
