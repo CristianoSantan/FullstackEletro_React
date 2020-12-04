@@ -25,6 +25,9 @@ const Nav = () => {
                         <li className="nav-item active">
                             <Link className="nav-link mr-5" to="/contato">Contato</Link>
                         </li>
+                        <li className="nav-item active">
+                            <Link className="nav-link mr-5" to="/pedido">Pedidos</Link>
+                        </li>
                     </ul>
                 </div>
             </div>

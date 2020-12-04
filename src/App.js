@@ -9,6 +9,7 @@ import Home from './Views/Home';
 import Produtos from './Views/Produtos';
 import Lojas from './Views/Lojas';
 import Contato from './Views/Contato';
+import Pedidos from './Views/Pedidos';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/produtos" component={Produtos} />
           <Route path="/loja" component={Lojas} />
           <Route path="/contato" component={Contato} />
+          <Route path="/pedido" component={Pedidos} />
         </Switch>
       </Router>
       <Footer />
