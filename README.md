@@ -9,7 +9,7 @@
 
 - [x] E em PHP, os dados da lista deveriam ser retornados pelo PHP em formato JSON, para alimentação e uso no React Js.
 
-- [ ] Agora, nesta última etapa os dados da lista devem ser originários de JOIN de pelo menos 2 tabelas.
+- [x] Agora, nesta última etapa os dados da lista devem ser originários de JOIN de pelo menos 2 tabelas.
 
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
