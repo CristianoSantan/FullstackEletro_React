@@ -27,7 +27,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ---
 
 <a href="https://cristianosantan.github.io/">
- <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/65695476?s=460&u=2cdd26015528cc8ad84527bf59dfa402c334a1d0&v=4" width="100px;" alt=""/>
+ <img style="border-radius: 20px" src="https://avatars3.githubusercontent.com/u/65695476?s=460&u=2cdd26015528cc8ad84527bf59dfa402c334a1d0&v=4" width="100px;" alt=""/>
  <br />
  <sub><b>Cristiano Santana</b></sub></a> <a href="https://cristianosantan.github.io/" title="Portifolio">🚀</a>
 
