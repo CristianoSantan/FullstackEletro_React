@@ -3,15 +3,13 @@
 
 ### Onde os requesitos foram:
 
-1. Em React.Js a tarefa foi a realização de um refactory (refatoração) do front-end do projeto.
+- [x] Em React.Js a tarefa foi a realização de um refactory (refatoração) do front-end do projeto.
 
-2. Já em Bootstrap, você precisou implementar no seu refactory (feito no curso anterior) pelo menos uma lista, estilizada com as classes de listas do Bootstrap.
+- [x] Já em Bootstrap, você precisou implementar no seu refactory (feito no curso anterior) pelo menos uma lista, estilizada com as classes de listas do Bootstrap.
 
-3. E em PHP, os dados da lista deveriam ser retornados pelo PHP em formato JSON, para alimentação e uso no React Js.
+- [x] E em PHP, os dados da lista deveriam ser retornados pelo PHP em formato JSON, para alimentação e uso no React Js.
 
-4. Agora, nesta última etapa os dados da lista devem ser originários de JOIN de pelo menos 2 tabelas.
-
-
+- [x] Agora, nesta última etapa os dados da lista devem ser originários de JOIN de pelo menos 2 tabelas.
 
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
