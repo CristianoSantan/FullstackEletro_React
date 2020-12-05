@@ -70,9 +70,6 @@ export default function Contato() {
                     </section>
                 </div>
 
-
-
-
                 <form onSubmit={handleSubmit} id="formmsg" name="formmsg" method="post" className="container my-3 p-3 bg-light rounded shadow-lg">
                     <div className="form-group">
                         <label for="nome">Nome:</label>
