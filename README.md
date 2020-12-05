@@ -1,7 +1,7 @@
-<h1 align="center">Projeto Full Stack <a href="https://www.recodepro.org.br/">🔗 RECODE_Pro</a></h1>
-<p align="center">🚀 Refatoração do site Full Stack Eletro em <a href="https://pt-br.reactjs.org/">🔗 Reactjs</a></p>
+<h1 align="center">Projeto Full Stack <a href="https://www.recodepro.org.br/">RECODE_Pro</a></h1>
+<p align="center">🚀 Refatoração do site Full Stack Eletro em <a href="https://pt-br.reactjs.org/">Reactjs</a></p>
 
-## Onde os requesitos foram:
+### Onde os requesitos foram:
 
 1. Em React.Js a tarefa foi a realização de um refactory (refatoração) do front-end do projeto.
 
@@ -10,6 +10,8 @@
 3. E em PHP, os dados da lista deveriam ser retornados pelo PHP em formato JSON, para alimentação e uso no React Js.
 
 4. Agora, nesta última etapa os dados da lista devem ser originários de JOIN de pelo menos 2 tabelas.
+
+
 
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
