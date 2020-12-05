@@ -35,4 +35,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Feito com ❤️ por Cristiano Santana 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Cristiano-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cristiano-souza-santana-b3011a119/)](https://www.linkedin.com/in/cristiano-souza-santana-b3011a119/) 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:cristiano.mer@gmail.com)](mailto:cristiano.mer@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-cristiano.mer@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:cristiano.mer@gmail.com)](mailto:cristiano.mer@gmail.com)
